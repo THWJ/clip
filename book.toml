@@ -1,14 +1,14 @@
-base_url = "https://clip-template.vercel.app"
+base_url = "https://clip.jerryking.top"
 [book]
-title = "Owen's Clip"
-description = "Owen's Clip"
+title = "Jerome's Clip"
+description = "Jerome's Clip"
 src = "content"
 language = "zh"
-authors = ["Owen Young"]
+authors = ["Jerome"]
 
 [output.html]
-git-repository-url = "https://github.com/theowenyoung/clip-template"
-edit-url-template = "https://github.com/theowenyoung/clip-template/edit/main/{path}"
+git-repository-url = "https://github.com/THWJ/clip"
+edit-url-template = "https://github.com/THWJ/clip/edit/main/{path}"
 
 [output.html.search]
 enable = false
