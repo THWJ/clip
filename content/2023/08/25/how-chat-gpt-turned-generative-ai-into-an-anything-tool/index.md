@@ -19,7 +19,7 @@ extra:
 
 ## Until recently, AI models were specialized tools. Modern LLMs are different.  
 
-直到最近，人工智能模型还是专门的工具。现代法学硕士是不同的。
+直到最近，人工智能模型还是专门的工具。现代LLMs是不同的。
 
 ![How ChatGPT turned generative AI into an “anything tool”](chatgpt-anything-tool-800x450.jpg)
 
