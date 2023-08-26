@@ -1,5 +1,5 @@
 ---
-title: Nvidia blowout earnings report shows chipmaker grabbing all AI profits
+title: Nvidia的收入暴增报告揭示芯片制造商拿走了AI产业的全部利润
 date: 2023-08-26T02:03:40.000Z
 updated: 2023-08-26T02:03:40.000Z
 taxonomies:
