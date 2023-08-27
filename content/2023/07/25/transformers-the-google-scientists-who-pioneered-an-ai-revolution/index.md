@@ -1,5 +1,5 @@
 ---
-title: 'Transformers: the Google scientists who pioneered an AI revolution'
+title: 'Transformers: 引领一次AI革命的谷歌科学家们'
 date: 2023-07-25T07:23:25.000Z
 updated: 2023-07-25T07:23:25.000Z
 taxonomies:

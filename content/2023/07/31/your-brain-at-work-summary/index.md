@@ -1,5 +1,5 @@
 ---
-title: "Your Brain At Work Summary"
+title: "图书摘要：你的大脑在工作（your Brain At Work）"
 date: 2023-07-31T17:18:10+08:00
 updated: 2023-07-31T17:18:10+08:00
 taxonomies:

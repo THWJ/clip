@@ -1,5 +1,5 @@
 ---
-title: The 4-Hour Workweek Summary
+title: 图书摘要：每周工作4小时
 date: 2023-07-31T09:10:05.000Z
 updated: 2023-07-31T09:10:05.000Z
 taxonomies:

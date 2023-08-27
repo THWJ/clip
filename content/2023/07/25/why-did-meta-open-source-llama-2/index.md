@@ -1,5 +1,5 @@
 ---
-title: 'Why Did Meta Open-Source Llama 2?'
+title: '为什么Meta开源LLama2'
 date: 2023-07-25T08:14:10.000Z
 updated: 2023-07-25T08:14:10.000Z
 taxonomies:

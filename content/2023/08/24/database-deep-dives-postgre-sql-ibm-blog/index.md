@@ -1,5 +1,5 @@
 ---
-title: 'Database Deep Dives: PostgreSQL'
+title: '深入了解数据库：PostgreSQL'
 date: 2023-08-24T03:06:28.000Z
 updated: 2023-08-24T03:06:28.000Z
 taxonomies:

@@ -1,5 +1,5 @@
 ---
-title: Big Data Industry Predictions for 2023
+title: 2023大数据行业预测
 date: 2023-08-02T12:18:10.000Z
 updated: 2023-08-02T12:18:10.000Z
 taxonomies:

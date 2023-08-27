@@ -1,5 +1,5 @@
 ---
-title: How ChatGPT turned generative AI into an “anything tool”
+title: ChatGPT如何将生成式AI变成通用工具
 date: 2023-08-25T08:53:25.000Z
 updated: 2023-08-25T08:53:25.000Z
 taxonomies:

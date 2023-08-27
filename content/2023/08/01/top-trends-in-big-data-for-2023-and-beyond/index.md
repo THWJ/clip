@@ -1,5 +1,5 @@
 ---
-title: Top Trends in Big Data for 2023 and Beyond
+title: 2023及之后的大数据趋势
 date: 2023-08-01T06:49:17.000Z
 updated: 2023-08-01T06:49:17.000Z
 taxonomies:

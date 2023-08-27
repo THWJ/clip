@@ -1,5 +1,5 @@
 ---
-title: The Diamond Industry Goes Platonic
+title: 钻石行业走向无性
 date: 2023-08-23T12:41:05.000Z
 updated: 2023-08-23T12:41:05.000Z
 taxonomies:

@@ -1,5 +1,5 @@
 ---
-title: 'Book Review: Conscious Business: How to Build Value through Values'
+title: '书评：有意识的商业：如何通过价值观创造价值'
 date: 2023-07-31T09:09:02.000Z
 updated: 2023-07-31T09:09:02.000Z
 taxonomies:

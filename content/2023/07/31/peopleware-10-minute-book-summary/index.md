@@ -1,5 +1,5 @@
 ---
-title: 'Peopleware: 10 Minute Book Summary'
+title: '10分钟图书摘要：Peopleware: 高效能项目和团队'
 date: 2023-07-31T09:00:23.000Z
 updated: 2023-07-31T09:00:23.000Z
 taxonomies:
