@@ -1,5 +1,5 @@
 ---
-title: ''
+title: '为什么不该加入 Y Combinator'
 date: 2024-04-10T07:21:33.000Z
 updated: 2024-04-10T07:21:33.000Z
 taxonomies:
