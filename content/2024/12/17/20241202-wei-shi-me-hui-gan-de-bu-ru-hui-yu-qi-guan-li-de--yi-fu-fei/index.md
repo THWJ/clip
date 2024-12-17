@@ -1,13 +1,14 @@
 ---
 title: '20241202'
-date: 2024-12-17T01:58:38.000Z
-updated: 2024-12-17T01:58:38.000Z
+date: 2024-12-17T02:04:30.000Z
+updated: 2024-12-17T02:04:30.000Z
 taxonomies:
   tags:
     - 西风
+    - self-help
 extra:
-  source: 
-  hostname: 
+  source: null
+  hostname: null
   author: null
   original_title: 20241202-为什么会干的，不如会预期管理的？ 已付费
   original_lang: zh-CN
