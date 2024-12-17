@@ -10,12 +10,11 @@ extra:
   source: null
   hostname: null
   author: null
-  original_title: 20241202-为什么会干的，不如会预期管理的？ 已付费
+  original_title: 20241202为什么会干的，不如会预期管理的？ 已付费
   original_lang: zh-CN
 
 ---
 
-20241202-为什么会干的，不如会预期管理的？ 已付费
 
 为什么会干的，不如会预期管理的？ 已付费  
 
