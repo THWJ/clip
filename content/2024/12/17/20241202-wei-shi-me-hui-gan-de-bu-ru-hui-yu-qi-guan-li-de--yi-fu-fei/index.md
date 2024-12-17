@@ -1,5 +1,5 @@
 ---
-title: '20241202'
+title: '20241202-为什么会干的，不如会预期管理的？ 已付费'
 date: 2024-12-17T02:04:30.000Z
 updated: 2024-12-17T02:04:30.000Z
 taxonomies:
@@ -10,7 +10,7 @@ extra:
   source: null
   hostname: null
   author: null
-  original_title: 20241202为什么会干的，不如会预期管理的？ 已付费
+  original_title: 20241202-为什么会干的，不如会预期管理的？ 已付费
   original_lang: zh-CN
 
 ---
