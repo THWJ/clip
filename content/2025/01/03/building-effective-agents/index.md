@@ -96,6 +96,8 @@ In this section, we’ll explore the common patterns for agentic systems we’ve
 
 The basic building block of agentic systems is an LLM enhanced with augmentations such as retrieval, tools, and memory. Our current models can actively use these capabilities—generating their own search queries, selecting appropriate tools, and determining what information to retain.  
 
+![the augented LLM](<the augmented LLM.png>)
+
 代理系统的基本构建块是一个LLM增强与扩增，如检索，工具和内存。我们目前的模型可以积极地使用这些功能生成自己的搜索查询，选择适当的工具，并确定要保留哪些信息。
 
 We recommend focusing on two key aspects of the implementation: tailoring these capabilities to your specific use case and ensuring they provide an easy, well-documented interface for your LLM. While there are many ways to implement these augmentations, one approach is through our recently released [Model Context Protocol](https://www.anthropic.com/news/model-context-protocol), which allows developers to integrate with a growing ecosystem of third-party tools with a simple [client implementation](https://modelcontextprotocol.io/tutorials/building-a-client#building-mcp-clients).  
@@ -111,6 +113,8 @@ For the remainder of this post, we'll assume each LLM call has access to these a
 工作流：提示链接
 
 Prompt chaining decomposes a task into a sequence of steps, where each LLM call processes the output of the previous one. You can add programmatic checks (see "gate” in the diagram below) on any intermediate steps to ensure that the process is still on track.  
+
+![alt text](<the prompt chaining workflow.webp>)
 
 提示链接将任务分解为一系列步骤，其中每个LLM调用处理前一个的输出。您可以在任何中间步骤上添加程序化检查（请参见下图中的“gate”），以确保流程仍在正常运行。
 
@@ -132,7 +136,7 @@ Prompt chaining decomposes a task into a sequence of steps, where each LLM call 
 ### Workflow: Routing  工作流程：工艺路线
 
 Routing classifies an input and directs it to a specialized followup task. This workflow allows for separation of concerns, and building more specialized prompts. Without this workflow, optimizing for one kind of input can hurt performance on other inputs.  
-
+![alt text](<the routing workflow.webp>)
 路由对输入进行分类并将其引导到专门的后续任务。此工作流允许分离关注点，并构建更专业的提示。如果没有此工作流，针对一种输入进行优化可能会损害其他输入的性能。
 
 **When to use this workflow:** Routing works well for complex tasks where there are distinct categories that are better handled separately, and where classification can be handled accurately, either by an LLM or a more traditional classification model/algorithm.  
@@ -164,7 +168,7 @@ LLMs有时可以同时处理一个任务，并以编程方式聚合其输出。�
 -   **Voting:** Running the same task multiple times to get diverse outputs.  
     
     **投票：**多次运行相同的任务以获得不同的输出。
-
+![alt text](<the parallelization workflow.webp>)
 **When to use this workflow:** Parallelization is effective when the divided subtasks can be parallelized for speed, or when multiple perspectives or attempts are needed for higher confidence results. For complex tasks with multiple considerations, LLMs generally perform better when each consideration is handled by a separate LLM call, allowing focused attention on each specific aspect.  
 
 **何时使用此工作流：**当划分的子任务可以并行化以提高速度时，或者当需要多个视角或尝试以获得更高置信度的结果时，并行化是有效的。对于具有多个考虑因素的复杂任务，当每个考虑因素由单独的LLM调用处理时LLMs通常会执行得更好，从而可以将注意力集中在每个特定方面。
@@ -197,7 +201,7 @@ LLMs有时可以同时处理一个任务，并以编程方式聚合其输出。�
 工作流程：工作人员
 
 In the orchestrator-workers workflow, a central LLM dynamically breaks down tasks, delegates them to worker LLMs, and synthesizes their results.  
-
+![alt text](<the orchestrator-workers workflow.webp>)
 在协调器-工作者工作流中，中央LLM动态地分解任务，将它们委托给工作者LLMs，并合成它们的结果。
 
 **When to use this workflow:** This workflow is well-suited for complex tasks where you can’t predict the subtasks needed (in coding, for example, the number of files that need to be changed and the nature of the change in each file likely depend on the task). Whereas it’s topographically similar, the key difference from parallelization is its flexibility—subtasks aren't pre-defined, but determined by the orchestrator based on the specific input.  
@@ -220,7 +224,7 @@ orchestator-workers有用的示例：**
 工作流程：评估器-优化器
 
 In the evaluator-optimizer workflow, one LLM call generates a response while another provides evaluation and feedback in a loop.  
-
+![alt text](<the evaluator-optimizer workflow.webp>)
 在评估器-优化器工作流中，一个LLM调用生成响应，而另一个调用在循环中提供评估和反馈。
 
 **When to use this workflow:** This workflow is particularly effective when we have clear evaluation criteria, and when iterative refinement provides measurable value. The two signs of good fit are, first, that LLM responses can be demonstrably improved when a human articulates their feedback; and second, that the LLM can provide such feedback. This is analogous to the iterative writing process a human writer might go through when producing a polished document.  
@@ -247,7 +251,7 @@ Agents are emerging in production as LLMs mature in key capabilities—understan
 Agents can handle sophisticated tasks, but their implementation is often straightforward. They are typically just LLMs using tools based on environmental feedback in a loop. It is therefore crucial to design toolsets and their documentation clearly and thoughtfully. We expand on best practices for tool development in Appendix 2 ("Prompt Engineering your Tools").  
 
 代理可以处理复杂的任务，但它们的实现通常很简单。它们通常只是LLMs使用基于循环中的环境反馈的工具。因此，清晰而周到地设计工具集及其文档至关重要。我们在附录2（“立即设计您的工具”）中扩展了工具开发的最佳实践。
-
+![alt text](<autonomous agent.png>)
 **When to use agents:** Agents can be used for open-ended problems where it’s difficult or impossible to predict the required number of steps, and where you can’t hardcode a fixed path. The LLM will potentially operate for many turns, and you must have some level of trust in its decision-making. Agents' autonomy makes them ideal for scaling tasks in trusted environments.  
 
 **何时使用代理：**代理可以用于开放式问题，在这些问题中，很难或不可能预测所需的步骤数，并且您无法硬编码固定路径。LLM可能会运行许多回合，您必须对其决策有一定程度的信任。代理的自主性使其成为可信环境中扩展任务的理想选择。
@@ -270,7 +274,7 @@ The following examples are from our own implementations:
 -   Our [“computer use” reference implementation](https://github.com/anthropics/anthropic-quickstarts/tree/main/computer-use-demo), where Claude uses a computer to accomplish tasks.  
     
     我们的[“计算机使用”参考实现](https://github.com/anthropics/anthropic-quickstarts/tree/main/computer-use-demo)，其中克劳德使用计算机来完成任务。
-
+![alt text](<High-level flow of a coding agent.webp>)
 ## Combining and customizing these patterns  
 
 组合和定制这些模式
