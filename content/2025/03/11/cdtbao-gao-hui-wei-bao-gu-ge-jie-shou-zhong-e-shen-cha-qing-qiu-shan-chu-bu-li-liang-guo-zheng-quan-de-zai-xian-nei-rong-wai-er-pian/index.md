@@ -12,6 +12,8 @@ extra:
   original_lang: zh-CN
 ---
 
+> **Jerome**: 特朗普说：我们都一样。
+
 > 编者按：《CDT报告汇》栏目收录和中国[言论自由](https://chinadigitaltimes.net/space/%E8%A8%80%E8%AE%BA%E8%87%AA%E7%94%B1)及其他人权问题相关的报告资讯。这些报告的来源多种多样，包括机构调查、学术研究、媒体报道和网民汇集等等。也欢迎读者向我们[推荐](https://chinadigitaltimes.net/chinese/telegrambot)值得关注的报告。
 
 CDT 档案卡
