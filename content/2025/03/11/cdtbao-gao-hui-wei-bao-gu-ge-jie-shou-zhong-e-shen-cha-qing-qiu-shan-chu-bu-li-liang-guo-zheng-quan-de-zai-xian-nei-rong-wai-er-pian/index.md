@@ -1,40 +1,18 @@
 ---
-title: "【CDT报告汇】卫报：谷歌接受中俄审查请求，删除不利两国政权的在线内容（外二篇）"
+title: "卫报：谷歌接受中俄审查请求，删除不利两国政权的在线内容（外二篇）"
 date: 2025-03-11T09:27:14+08:00
 updated: 2025-03-11T09:27:14+08:00
 taxonomies:
   tags: []
 extra:
-  source: https://chinadigitaltimes.net/chinese/715846.html
-  hostname: chinadigitaltimes.net
-  author: 南方街头运动员
-  original_title: "【CDT报告汇】卫报：谷歌接受中俄审查请求，删除不利两国政权的在线内容（外二篇）"
+  source: 
+  hostname: 
+  author: 
+  original_title: "卫报：谷歌接受中俄审查请求，删除不利两国政权的在线内容（外二篇）"
   original_lang: zh-CN
 ---
 
 > **Jerome**: 特朗普说：我们都一样。
-
-> 编者按：《CDT报告汇》栏目收录和中国[言论自由](https://chinadigitaltimes.net/space/%E8%A8%80%E8%AE%BA%E8%87%AA%E7%94%B1)及其他人权问题相关的报告资讯。这些报告的来源多种多样，包括机构调查、学术研究、媒体报道和网民汇集等等。也欢迎读者向我们[推荐](https://chinadigitaltimes.net/chinese/telegrambot)值得关注的报告。
-
-CDT 档案卡
-
-**标题：**【CDT报告汇】卫报：谷歌接受中俄审查请求，删除不利两国政权的在线内容（外二篇）  
-
-**作者：**中国数字时代  
-
-**发表日期：**2025.2.15  
-
-**主题归类：**[中国红十字会](https://chinadigitaltimes.net/space/%E4%B8%AD%E5%9B%BD%E7%BA%A2%E5%8D%81%E5%AD%97%E4%BC%9A)  
-
-**主题归类：**[中国数字极权](https://chinadigitaltimes.net/space/%E4%B8%AD%E5%9B%BD%E6%95%B0%E5%AD%97%E6%9E%81%E6%9D%83)  
-
-**主题归类：**[民主基金会](https://chinadigitaltimes.net/space/%E6%B0%91%E4%B8%BB%E5%9F%BA%E9%87%91%E4%BC%9A)  
-
-**CDS收藏：**[公民馆](https://chinadigitaltimes.net/space/%E5%85%AC%E6%B0%91%E9%A6%86)  
-
-**版权说明：**该作品版权归原作者所有。中国数字时代仅对原作进行存档，以对抗中国的网络审查。[详细版权说明](https://chinadigitaltimes.net/chinese/copyright)。
-
-**中国数字时代本周推荐媒体：**
 
 > [外交学者(The Diplomat)](https://thediplomat.com/)：是一份专注于亚太地区的国际时事杂志，涵盖大量高质量的分析和评论。通过对地区问题的深入探讨，赢得了评论员、政策制定者和学者等众多有影响力的受众。
 
