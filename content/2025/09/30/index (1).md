@@ -11,6 +11,13 @@ extra:
   original_title: "吴恩达新作《如何在人工智能领域建立你的职业生涯》（中文万字校对版）"
   original_lang: zh
 ---
+**Jerome**: 这是吴恩达去年（也可能是2023年）发布的一本电子小书。吴恩达是著名AI领域专家，他很早（2017年）提出AI未来的跟电力一样（是必需品），如今似乎已经语言成真。普通人的未来无法离开AI，计算机领域的大学生，未来的工作恐怕也很难不受AI的影响，是好的影响还是坏的影响，就看每个人自己了。
+
+吴恩达的小书是英文版的，发表在网站上，这个主题还在持续更新：[AI Careers Articles - The Batch | DeepLearning.AI](https://www.deeplearning.ai/the-batch/tag/ai-careers/)
+
+---以下是知乎”李放心为之疯狂“对吴的作品的翻译。---
+
+
 
 > 说明：本文内容源自deeplearning.ai最新发布的《How to Build Your Career in AI》电子PDF，我使用GPT进行翻译、校对，最后以遵循原文表意、我本人中文流畅阅读习惯表达为原则进行润色修改。与想从事AI行业的朋友分享。
 
