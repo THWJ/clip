@@ -7,8 +7,7 @@ taxonomies:
 extra:
   source: https://colossus.com/article/joe-liemandt-class-dismissed/
   hostname: colossus.com
-  author: By 
-                                Jeremy Stern  由杰里米·斯泰恩撰写
+  author: By Jeremy Stern  由杰里米·斯泰恩撰写
   original_title: "The Software Tycoon Scaling AI Education to a Billion Kids"
   original_lang: en-US
 ---

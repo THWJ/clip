@@ -1,3 +1,16 @@
+---
+title: "家长们爱上了 Alpha 学校的承诺。然后他们想退出"
+date: 2026-01-19T09:45:32+08:00
+updated: 2026-01-19T09:45:32+08:00
+taxonomies:
+  tags: 
+extra:
+  source: https://www.wired.com/story/ai-teacher-inside-alpha-school/
+  hostname: wired.com
+  author: Todd Feathers  托德·费瑟斯
+  original_title: "Parents Fell in Love With Alpha School’s Promise. Then They Wanted Out"
+  original_lang: en-US
+---
 One day last fall, Kristine Barrios’ 9-year-old daughter got stuck on a lesson in IXL, the personalized learning software that served as her math teacher. She had to multiply three three-digit numbers without using a calculator. Then she had to do it again, her mom says, more than 20 times, without making mistakes.
 
 去年秋天的一天，克里斯汀·巴里奥斯 9 岁的女儿在 IXL 的一节课上卡住了，这是一款作为她数学老师的个性化学习软件。她必须不用计算器，把三个三位数相乘。她妈妈说，她还得再做一次，超过 20 次，却没有犯错。
